@@ -8,11 +8,9 @@ function TarjetaPelicula({ movie, onViewMovie }) {
     >
       <img
         src={movie.posterUrl}
-        alt={`Póster de ${movie.title}`} 
+        alt={`Póster de ${movie.title}`}
         className="w-full h-auto object-cover aspect-[2/3]"
-        onError={(e) => {
-          e.target.src = 'https://placehold.co/400x600/1a202c/718096?text=Error'; 
-        }}
+        onError={(e) => { e.target.src = 'https://placehold.co/400x600/1a202c/718096?text=Error'; }}
       />
       <div className="p-4">
         <h3 className="font-bold text-lg truncate text-white">{movie.title}</h3>

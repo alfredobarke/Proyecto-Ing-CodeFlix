@@ -1,6 +1,6 @@
 import React from 'react';
-import TarjetaPelicula from '../componentes/TarjetaPelicula';
-import peliculasSciFi from '../datos/peliculasSciFi';
+import TarjetaPelicula from '../components/TarjetaPelicula';
+import peliculasSciFi from '../data/peliculasSciFi';
 
 function PaginaInicio({ navigateTo, viewMovie }) {
   const featuredMovies = peliculasSciFi.slice(0, 3); 

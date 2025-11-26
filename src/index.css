@@ -1,8 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Importamos Tailwind v4 */
+@import "tailwindcss";
 
-/* Estilos base opcionales */
+/* Configuramos el tema (fuentes y animaciones) directamente aquí */
+@theme {
+  --font-inter: "Inter", sans-serif;
+
+  --animate-fadeIn: fadeIn 0.5s ease-in-out;
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}
+
+/* Estilos base */
 body {
-  @apply font-inter; /* Aplica la fuente Inter a todo el sitio */
+  font-family: var(--font-inter);
+  @apply text-gray-100 bg-gray-900; /* Fondo oscuro por defecto */
 }
