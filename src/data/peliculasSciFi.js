@@ -6,12 +6,12 @@ const peliculasSciFi = [
     year: 2024,
     director: 'Denis Villeneuve',
     description: 'Paul Atreides se une a los Fremen y busca venganza contra quienes destruyeron a su familia, mientras intenta prevenir un futuro terrible.',
-    posterUrl: '[https://placehold.co/400x600/1a202c/718096?text=Dune+II](https://placehold.co/400x600/1a202c/718096?text=Dune+II)',
-    backdropUrl: '[https://placehold.co/1280x720/1a202c/718096?text=Dune+II+Backdrop](https://placehold.co/1280x720/1a202c/718096?text=Dune+II+Backdrop)',
+    posterUrl: 'https://image.tmdb.org/t/p/w500/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg',
+    backdropUrl: 'https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg',
     rating: 9.1,
     genre: 'Space Opera',
   },
-  
+
 ];
 
 export default peliculasSciFi;

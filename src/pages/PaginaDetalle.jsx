@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PaginaDetalle({ movie, goToCatalog }) {
+function PaginaDetalle({ movie, goToCatalog }) { 
   if (!movie) {
     return <p className="text-center text-red-500">Error: Película no encontrada.</p>;
   }
