@@ -71,7 +71,7 @@ function PaginaContacto() {
         </div>
         <button
           type="submit"
-          className="w-full py-3 px-6 bg-cyan-600 text-white font-bold rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
+          className="w-full py-3 px-6 bg-[#002366] text-white font-bold rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
         >
           Enviar Recomendación
         </button>

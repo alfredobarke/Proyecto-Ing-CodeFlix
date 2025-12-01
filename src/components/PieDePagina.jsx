@@ -3,13 +3,9 @@ import React from 'react';
 
 function PieDePagina() {
   return (
-    <footer className="mt-16 border-t border-cyan-500/40">
-      <div
-        className="h-1 w-full"
-        style={{ backgroundColor: '#0049FF' }}
-      />
+    <footer className="mt-16 border-t bg-[#002366]/40">
 
-      <div className="p-8 bg-cyan-500 text-gray-900">
+      <div className="p-8 bg-[#002366] text-gray-300">
         <div className="container mx-auto text-center text-sm md:text-base">
           <p className="font-bold text-lg md:text-xl">
             CodeFlix – Proyecto de Ingeniería de Software
