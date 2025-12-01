@@ -1,7 +1,6 @@
 // src/App.jsx
 import React, { useState } from 'react';
 
-// Importamos los datos y los componentes (Carpetas en Inglés, Archivos en Español)
 import peliculasSciFi from './data/peliculasSciFi';
 import BarraNavegacion from './components/BarraNavegacion';
 import PieDePagina from './components/PieDePagina';
@@ -10,9 +9,7 @@ import PaginaCatalogo from './pages/PaginaCatalogo';
 import PaginaDetalle from './pages/PaginaDetalle';
 import PaginaContacto from './pages/PaginaContacto';
 
-// --- (4) COMPONENTE PRINCIPAL (APP) ---
 export default function App() {
-  // Esto lo uso como un "router" muy simple, suficiente para el proyecto sin meter más librerías.
   const [page, setPage] = useState('home'); // 'home', 'catalog', 'detail', 'contact'
   const [selectedMovieId, setSelectedMovieId] = useState(null);
 
@@ -32,7 +29,6 @@ export default function App() {
     navigateTo('catalog');
   };
 
-  // Ojo: aquí buscamos la peli seleccionada directamente en el mock de datos.
   const selectedMovie = peliculasSciFi.find((m) => m.id === selectedMovieId);
 
   const renderPage = () => {
@@ -42,7 +38,9 @@ export default function App() {
       case 'catalog':
         return <PaginaCatalogo viewMovie={viewMovie} />;
       case 'detail':
-        return <PaginaDetalle movie={selectedMovie} goToCatalog={goToCatalog} />;
+        return (
+          <PaginaDetalle movie={selectedMovie} goToCatalog={goToCatalog} />
+        );
       case 'contact':
         return <PaginaContacto />;
       default:

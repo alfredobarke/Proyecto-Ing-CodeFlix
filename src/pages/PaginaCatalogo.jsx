@@ -11,10 +11,10 @@ function PaginaCatalogo({ viewMovie }) {
   const filteredMovies = useMemo(() => {
     return peliculasSciFi
       .filter((movie) =>
-        movie.title.toLowerCase().includes(searchTerm.toLowerCase()),
+        movie.title.toLowerCase().includes(searchTerm.toLowerCase())
       )
       .filter((movie) =>
-        filterGenre === 'all' ? true : movie.genre === filterGenre,
+        filterGenre === 'all' ? true : movie.genre === filterGenre
       );
   }, [searchTerm, filterGenre]);
 
@@ -49,7 +49,10 @@ function PaginaCatalogo({ viewMovie }) {
       </div>
 
       <p className="text-xs text-gray-500 mb-4">
-        Mostrando <span className="text-cyan-400 font-semibold">{filteredMovies.length}</span>{' '}
+        Mostrando{' '}
+        <span className="text-cyan-400 font-semibold">
+          {filteredMovies.length}
+        </span>{' '}
         película(s) de ciencia ficción.
       </p>
 

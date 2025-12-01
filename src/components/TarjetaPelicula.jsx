@@ -3,7 +3,7 @@ import React from 'react';
 
 function TarjetaPelicula({ movie, onViewMovie }) {
   return (
-    // La idea es que toda la card sea clickeable, como en las plataformas de streaming.
+    // Se nos ocurrio que toda card sea clickeable, como en las plataformas de streaming
     <div
       className="group bg-gray-900/80 border border-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.03] hover:shadow-cyan-500/40 cursor-pointer"
       onClick={() => onViewMovie(movie.id)}

@@ -19,15 +19,24 @@ function PaginaDetalle({ movie, goToCatalog }) {
         &larr; Volver al catálogo
       </button>
 
-      <div className="relative h-[45vh] -mt-4 mb-8 rounded-xl overflow-hidden border border-gray-800">
-        <img
-          src={movie.backdropUrl}
-          alt={`Fondo de ${movie.title}`}
-          className="absolute inset-0 w-full h-full object-cover opacity-40"
-          onError={(e) => {
-            e.target.style.display = 'none';
-          }}
-        />
+      <div className="relative h-[45vh] -mt-4 mb-8 rounded-xl overflow-hidden border border-gray-800 bg-gradient-to-br from-cyan-900/30 via-black to-slate-950">
+        {movie.backdropUrl ? (
+          <img
+            src={movie.backdropUrl}
+            alt={`Fondo de ${movie.title}`}
+            className="absolute inset-0 w-full h-full object-cover opacity-40"
+            onError={(e) => {
+              e.target.style.display = 'none';
+            }}
+          />
+        ) : (
+          <div className="absolute inset-0 flex justify-center items-center opacity-30">
+            <span className="text-cyan-300 text-sm md:text-lg">
+              SIN IMAGEN DISPONIBLE
+            </span>
+          </div>
+        )}
+
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
       </div>
 
