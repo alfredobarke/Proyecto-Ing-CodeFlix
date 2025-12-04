@@ -13,6 +13,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg',
     rating: 9.1,
     genre: 'Space Opera',
+    trailerUrl: "https://www.youtube.com/embed/U2Qp5pL3ovA"
   },
 
   {
@@ -28,6 +29,7 @@ const peliculasSciFi = [
       'https://media.themoviedb.org/t/p/w1066_and_h600_face/mVr0UiqyltcfqxbAUcLl9zWL8ah.jpg',
     rating: 8.5,
     genre: 'Cyberpunk',
+    trailerUrl: "https://www.youtube.com/embed/gCcx85zbxz4"
   },
 
   {
@@ -43,6 +45,7 @@ const peliculasSciFi = [
       'https://media.themoviedb.org/t/p/w1066_and_h600_face/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg',
     rating: 8.7,
     genre: 'Cyberpunk',
+    trailerUrl: "https://www.youtube.com/embed/vKQi3bBA1y8"
   },
 
   {
@@ -58,6 +61,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg',
     rating: 8.6,
     genre: 'Space Opera',
+    trailerUrl: "https://www.youtube.com/embed/zSWdZVtXT7E"
   },
 
   {
@@ -73,8 +77,8 @@ const peliculasSciFi = [
       'https://media.themoviedb.org/t/p/w1066_and_h600_face/yY76zq9XSuJ4nWyPDuwkdV7Wt0c.jpg',
     rating: 7.3,
     genre: 'Time-Travel',
+    trailerUrl: "https://www.youtube.com/embed/AZGcmvrTX9M"
   },
-
 
   {
     id: 5,
@@ -89,6 +93,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/w1066_and_h600_face/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg',
     rating: 8.8,
     genre: 'Sci-Fi Thriller',
+    trailerUrl: "https://www.youtube.com/embed/YoHD9XEInc0"
   },
 
   {
@@ -104,6 +109,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/w1066_and_h600_face/vfzE3pjE5G7G7kcZWrA3fnbZo7V.jpg',
     rating: 8.1,
     genre: 'Cyberpunk',
+    trailerUrl: "https://www.youtube.com/embed/eogpIG53Cis"
   },
 
   {
@@ -119,6 +125,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/w1066_and_h600_face/zmmYdPa8Lxx999Af9vnVP4XQ1V6.jpg',
     rating: 8.3,
     genre: 'Hard Sci-Fi',
+    trailerUrl: "https://www.youtube.com/embed/oR_e9y-bka0"
   },
 
   {
@@ -134,6 +141,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/w1066_and_h600_face/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg',
     rating: 8.0,
     genre: 'Space Opera',
+    trailerUrl: "https://www.youtube.com/embed/d96cjJhvlMA"
   },
 
   {
@@ -149,6 +157,7 @@ const peliculasSciFi = [
       'https://image.tmdb.org/t/p/w1066_and_h600_face/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg',
     rating: 6.9,
     genre: 'Space Drama',
+    trailerUrl: "https://www.youtube.com/embed/P6AaSMfXHbA"
   },
 ];
 
