@@ -20,7 +20,7 @@ function PaginaInicio({ navigateTo, viewMovie }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
         <div className="relative z-10 p-4">
-          <span className="inline-block mb-4 px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-400 text-xs font-semibold tracking-wide uppercase">
+          <span className="inline-block mb-4 px-3 py-1 rounded-full bg-cyan-500/20 text-[#60A5FA] text-xs font-semibold tracking-wide uppercase">
             Catálogo exclusivo de Ciencia Ficción
           </span>
           <h2 className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-xl">
@@ -42,7 +42,7 @@ function PaginaInicio({ navigateTo, viewMovie }) {
       {/* Películas Destacadas */}
       <section>
         <div className="flex items-baseline justify-between mb-4">
-          <h3 className="text-2xl md:text-3xl font-bold text-cyan-400">
+          <h3 className="text-2xl md:text-3xl font-bold text-[#60A5FA]">
             Destacadas de la semana
           </h3>
           <button
