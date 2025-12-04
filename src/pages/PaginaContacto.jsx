@@ -65,7 +65,7 @@ function PaginaContacto() {
 
         <button
           type="submit"
-          className="w-full py-3 px-6 bg-scifiBlue-dark text-white font-bold rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
+          className="w-full py-3 px-6 bg-[#002366] text-white font-bold rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
         >
           Enviar Retroalimentación
         </button>

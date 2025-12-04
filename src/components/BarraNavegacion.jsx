@@ -7,7 +7,7 @@ function BarraNavegacion({ navigateTo, currentPage }) {
 
   const linkClass = (pageKey) =>
     currentPage === pageKey
-      ? `${baseLink} bg-cyan-500 text-gray-900`
+      ? `${baseLink} bg-[#002366] text-gray-300`
       : `${baseLink} text-gray-300 hover:text-cyan-400 hover:bg-gray-800/60`;
 
   return (
@@ -18,7 +18,7 @@ function BarraNavegacion({ navigateTo, currentPage }) {
           onClick={() => navigateTo('home')}
         >
           <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
-            CODEFLIX<span className="text-cyan-400">: Sci-Fi</span>
+            CODEFLIX<span className="text-[#4169E1]"> : Sci-Fi</span>
           </h1>
           <p className="text-xs md:text-sm text-gray-400">
             Solo ciencia ficción, todo el tiempo.

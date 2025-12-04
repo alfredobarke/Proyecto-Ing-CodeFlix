@@ -20,7 +20,7 @@ function PaginaInicio({ navigateTo, viewMovie }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
         <div className="relative z-10 p-4">
-          <span className="inline-block mb-4 px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-xs font-semibold tracking-wide uppercase">
+          <span className="inline-block mb-4 px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-400 text-xs font-semibold tracking-wide uppercase">
             Catálogo exclusivo de Ciencia Ficción
           </span>
           <h2 className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-xl">
@@ -32,7 +32,7 @@ function PaginaInicio({ navigateTo, viewMovie }) {
           </p>
           <button
             onClick={() => navigateTo('catalog')}
-            className="mt-8 px-7 py-3 bg-cyan-500 text-gray-900 font-bold rounded-full shadow-lg transition-transform duration-300 hover:scale-110 hover:bg-cyan-400"
+            className="mt-8 px-7 py-3 bg-[#002366] text-gray-300 font-bold rounded-full shadow-lg transition-transform duration-300 hover:scale-110 hover:bg-cyan-400"
           >
             Explorar Catálogo
           </button>

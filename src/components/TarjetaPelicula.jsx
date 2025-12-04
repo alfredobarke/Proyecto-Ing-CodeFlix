@@ -24,7 +24,7 @@ function TarjetaPelicula({ movie, onViewMovie }) {
           ★ {movie.rating ?? '–'}
         </span>
 
-        <span className="absolute bottom-3 left-3 px-2 py-1 rounded-full bg-cyan-500/90 text-gray-900 text-[0.7rem] font-semibold uppercase tracking-wide">
+        <span className="absolute bottom-3 left-3 px-2 py-1 rounded-full bg-[#002366]/90 text-gray-300 text-[0.7rem] font-semibold uppercase tracking-wide">
           {movie.genre}
         </span>
       </div>
