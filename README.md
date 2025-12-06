@@ -15,8 +15,8 @@ Aplicación construida con:
 
 Asegúrate de tener instalado:
 
-node -v  
-npm -v  
+`node -v`  
+`npm -v`  
 
 Recomendado: Node.js 18 o superior.
 
@@ -24,15 +24,15 @@ Recomendado: Node.js 18 o superior.
 
 ## Instalación
 
-git clone <URL-DEL-REPO>  
-cd Proyecto-Ing-CodeFlix  
-npm install  
+`git clone <URL-DEL-REPO>`  
+`cd Proyecto-Ing-CodeFlix`  
+`npm install`  
 
 ---
 
 ## Modo desarrollo
 
-npm run dev  
+`npm run dev`  
 
 Luego abrir en navegador:  
 http://localhost:5173  
@@ -49,11 +49,11 @@ El proyecto incluye pruebas automatizadas para:
 
 Ejecutar pruebas:
 
-npm test  
+`npm test`  
 
 Ejecución única:
 
-npx vitest run  
+`npx vitest run`
 
 Salir del modo interactivo: presionar `q`
 
@@ -61,10 +61,10 @@ Salir del modo interactivo: presionar `q`
 
 ## Scripts útiles
 
-npm run dev       → Ejecutar en desarrollo  
-npm run build     → Crear build producción  
-npm run preview   → Vista previa build  
-npm test          → Pruebas unitarias  
+`npm run dev`       → Ejecutar en desarrollo  
+`npm run build`     → Crear build producción  
+`npm run preview`   → Vista previa build  
+`npm test`          → Pruebas unitarias  
 
 ---
 
@@ -88,4 +88,4 @@ npm test          → Pruebas unitarias
 
 ---
 
-> _"En CodeFlix, el futuro del cine está a solo un clic de distancia."_ 
+> _"En CodeFlix, el futuro del cine está a solo un clic de distancia."_ 🚀
