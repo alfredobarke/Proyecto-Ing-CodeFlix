@@ -1,16 +1,91 @@
-# React + Vite
+# CodeFlix – Catálogo de Cine de Ciencia Ficción 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeFlix es una aplicación web donde puedes explorar películas de ciencia ficción, ver información detallada, trailers y filtrar por nombre o subgénero.  
+Proyecto desarrollado como parte del curso de **Ingeniería de Software** en la UNAM.
 
-Currently, two official plugins are available:
+Aplicación construida con:
+- React
+- Vite
+- Tailwind CSS
+- Vitest + Testing Library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Requisitos previos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Asegúrate de tener instalado:
 
-## Expanding the ESLint configuration
+node -v  
+npm -v  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Recomendado: Node.js 18 o superior.
+
+---
+
+## Instalación
+
+git clone <URL-DEL-REPO>  
+cd Proyecto-Ing-CodeFlix  
+npm install  
+
+---
+
+## Modo desarrollo
+
+npm run dev  
+
+Luego abrir en navegador:  
+http://localhost:5173  
+
+---
+
+## Pruebas unitarias
+
+El proyecto incluye pruebas automatizadas para:
+- Componentes principales
+- Lógica del catálogo (búsqueda y filtros)
+- Flujos principales de usuario
+- Casos límite y manejo de errores
+
+Ejecutar pruebas:
+
+npm test  
+
+Ejecución única:
+
+npx vitest run  
+
+Salir del modo interactivo: presionar `q`
+
+---
+
+## Scripts útiles
+
+npm run dev       → Ejecutar en desarrollo  
+npm run build     → Crear build producción  
+npm run preview   → Vista previa build  
+npm test          → Pruebas unitarias  
+
+---
+
+## Tecnologías empleadas
+
+- React
+- Vite
+- Tailwind CSS
+- Vitest
+- Testing Library
+
+---
+
+## Equipo CodeFlix – Ciencia Ficción
+
+- Carlos Yañez Díaz
+- Santiago Iván Reyes Medina
+- Alfredo Barke Gómez
+- Julio César Islas Espino
+- Ashley Yael López Espinoza
+
+---
+
+> _"En CodeFlix, el futuro del cine está a solo un clic de distancia."_ 
